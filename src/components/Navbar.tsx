@@ -28,7 +28,7 @@ import React from 'react';
               <Link to="/" className="flex items-center space-x-2">
                 <img src={logo} alt="Logo" className="h-10 w-auto" />
               </Link>
-    */
+            */
 
               <nav className="bg-white shadow-lg">
       <div className="container mx-auto px-4">
