@@ -2,7 +2,7 @@ import React from 'react';
     import { Link, useNavigate } from 'react-router-dom';
     import { useAuth } from '../contexts/AuthContext';
     import { Dumbbell, User, Settings, Trophy, LogOut, Calendar } from 'lucide-react';
-    import logo from '../assets/logo-old.png';
+    import logo from '../assets/logo.png';
     export default function Navbar() {
       const { user, signOut } = useAuth();
       const navigate = useNavigate();
