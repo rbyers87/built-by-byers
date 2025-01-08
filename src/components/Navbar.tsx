@@ -2,7 +2,8 @@ import React from 'react';
     import { Link, useNavigate } from 'react-router-dom';
     import { useAuth } from '../contexts/AuthContext';
     import { Dumbbell, User, Settings, Trophy, LogOut, Calendar } from 'lucide-react';
-    import logo from '../assets/logo.png';
+//    import logo from '../assets/logo.png';
+
     export default function Navbar() {
       const { user, signOut } = useAuth();
       const navigate = useNavigate();
@@ -19,13 +20,23 @@ import React from 'react';
       };
     
       return (
+
+          /*
         <nav className="bg-white shadow-lg">
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center h-16 ">
               <Link to="/" className="flex items-center space-x-2">
                 <img src={logo} alt="Logo" className="h-10 w-auto" />
               </Link>
-    
+    */
+
+              <nav className="bg-white shadow-lg">
+      <div className="container mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          <Link to="/" className="flex items-center space-x-2">
+            <Dumbbell className="h-8 w-8 text-indigo-600" />
+            <span className="text-xl font-bold text-gray-800">RyBy's Workout Tracker</span>
+          </Link>
     
     
               <div className="flex items-center space-x-4">
