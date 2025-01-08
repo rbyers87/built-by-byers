@@ -35,7 +35,7 @@ import React from 'react';
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Dumbbell className="h-8 w-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-800">RyBy's Workout Tracker</span>
+            <span className="text-xl font-bold text-gray-800">Built by Byers</span>
           </Link>
     
     
